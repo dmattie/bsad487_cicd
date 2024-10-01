@@ -13,7 +13,7 @@ class TestFunctions(unittest.TestCase):
     def test_is_even(self):
         self.assertTrue(is_even(4))
         self.assertFalse(is_even(5))
-        self.assertFalse(is_even(0))
+        self.assertTrue(is_even(0))
         
 
     def test_get_initials(self):
